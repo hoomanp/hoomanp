@@ -21,6 +21,19 @@ My work spans from formal verification and deterministic "Ring 0" governance ker
 
 ---
 
+### 📊 Executive Metrics & Engineering Benchmarks
+
+| Metric Domain | Quantitative Benchmark | Implementation & Target Invariant |
+| :--- | :--- | :--- |
+| **Provable AI Governance Latency** | **`< 0.85 ms`** | Deterministic SHA-256 PEP execution in [`autonomy-boundary`](https://github.com/hoomanp/autonomy-boundary) (zero LLM in critical path) |
+| **Agentic Security Coverage** | **`100% (8/8)`** | Full mitigation of OWASP Agentic Security Initiative (ASI-1 to ASI-8) vulnerability classes |
+| **Mission-Critical Test Rigor** | **`130 / 130 Passing`** | 21/21 suites, 96% service coverage in [`aura-ai-coach`](https://github.com/hoomanp/aura-ai-coach) CRM companion platform |
+| **Enterprise Systems Scale** | **`20+ Specialized Crates`** | Dual-tenant Rust monorepo ([`pharmalink-md`](https://github.com/hoomanp/pharmalink-md)) with dual-region Postgres 16 |
+| **Telecommunications Precision** | **`±65 kHz Doppler`** | Real-time SGP4 Ka/V-band frequency correction in [`PyOrbit-Link`](https://github.com/hoomanp/PyOrbit-Link) (Native SwiftUI iOS 17+) |
+| **Multi-Cloud Intelligence** | **`Google · Azure · AWS`** | Standardized Model Context Protocol (MCP) & decoupled RAG engines across aerospace and MedTech |
+
+---
+
 ## 🏛️ Flagship Engineering Portfolio
 
 ```mermaid
