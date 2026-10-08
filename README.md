@@ -1,121 +1,112 @@
 # Hooman Parta ⚡
-### Engineering Leader & Principal Systems Architect
-**Provable AI Governance • Hyperscale SRE & Infrastructure • Mission-Critical Systems • Regulated Platforms**
+### Director of Engineering | AI Systems, Hyperscale Infrastructure & Platform Reliability
+**Provable AI Governance • Closed-Loop SRE • Autonomous Multi-Agent Platforms • Enterprise Scale**
 
 [![CISSP Certified](https://img.shields.io/badge/Certification-CISSP-gold.svg)](https://www.isc2.org/)
 [![Focus: Ring 0 AI Safety](https://img.shields.io/badge/Focus-Ring%200%20AI%20Safety-purple.svg)](https://github.com/hoomanp/autonomy-boundary)
 [![Focus: Hyperscale SRE](https://img.shields.io/badge/Focus-Hyperscale%20SRE%20%7C%20OTel-orange.svg)](https://github.com/hoomanp/advanced-observability-sre)
-[![Focus: LEO Aerospace](https://img.shields.io/badge/Focus-LEO%20Space%20Networks-00bcd4.svg)](https://github.com/hoomanp/ConstellaSim)
-[![Focus: Regulated MedTech](https://img.shields.io/badge/Focus-Regulated%20Digital%20Health-red.svg)](https://github.com/hoomanp/aura-ai-coach)
+[![Focus: AI Velocity](https://img.shields.io/badge/Focus-AI%20Org%20Velocity%20%7C%20DORA-00bcd4.svg)](https://github.com/hoomanp/aether-metrics)
+[![Focus: Zero-Trust Cloud](https://img.shields.io/badge/Focus-Zero--Trust%20JIT%20Access-brightgreen.svg)](https://github.com/hoomanp/kube-sre-vantage)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hooman--parta-0077b5.svg)](https://linkedin.com/in/hooman-parta)
 
 ---
 
-## 🧭 Executive Summary & Operating Philosophy
+## 🧭 Executive Summary & Leadership Thesis
 
-With 25+ years architecting distributed systems, cloud platforms, and security boundaries at Fortune-100 and hyperscale engineering scope, I build systems that operate at the intersection of **autonomous intelligence, high-reliability infrastructure, and provable regulatory compliance**.
+With 25+ years architecting distributed systems, cloud platforms, and security boundaries at Fortune-100 and hyperscale engineering scope, I build and lead engineering organizations operating at the nexus of **autonomous AI systems, high-reliability cloud infrastructure, and provable regulatory compliance**.
 
-> *"Systems that act must be provably bounded; systems that scale must be autonomously resilient; and systems that govern must be mathematically auditable."*
+> *"Systems that act must be provably bounded; systems that scale must be autonomously resilient; and engineering organizations that adopt AI must be quantitatively governed against technical debt."*
 
-My work spans from formal verification and deterministic "Ring 0" governance kernels for AI agents to hyperscale production engineering (telemetry-driven blast-radius mitigation, hardware auto-remediation) and mission-critical communications (LEO satellite meshes and implantable cardiac medical platforms).
+My work centers on establishing formal architectural governance for AI systems (deterministic "Ring 0" authorization kernels, sub-millisecond safety gating), closed-loop production engineering (OpenTelemetry distributed tracing, blast-radius mitigation, Zero-Trust JIT remediation), and scaling high-velocity engineering organizations with automated DORA telemetry.
 
 ---
 
 ### 📊 Executive Metrics & Engineering Benchmarks
 
-| Metric Domain | Quantitative Benchmark | Implementation & Target Invariant |
+| Strategic Domain | Quantitative Benchmark | Operational Invariant & Production Architecture |
 | :--- | :--- | :--- |
 | **Provable AI Governance Latency** | **`< 0.85 ms`** | Deterministic SHA-256 PEP execution in [`autonomy-boundary`](https://github.com/hoomanp/autonomy-boundary) (zero LLM in critical path) |
 | **Agentic Security Coverage** | **`100% (8/8)`** | Full mitigation of OWASP Agentic Security Initiative (ASI-1 to ASI-8) vulnerability classes |
+| **Organizational Velocity** | **`-24.8% Cycle Time`** | Closed-loop DORA + AI ROI governance with autonomous A2A quality gating in [`aether-metrics`](https://github.com/hoomanp/aether-metrics) |
+| **Hyperscale Reliability Gating** | **`Stop-Ship on BRI`** | Pre-flight Blast Radius Index simulation halting canary rollouts before Tier-0 error budget exhaustion |
+| **Zero-Trust Remediations** | **`Ephemeral JIT Tokens`** | Automated Kubernetes remediation with scoped 60s tokens in [`kube-sre-vantage`](https://github.com/hoomanp/kube-sre-vantage) |
 | **Mission-Critical Test Rigor** | **`130 / 130 Passing`** | 21/21 suites, 96% service coverage in [`aura-ai-coach`](https://github.com/hoomanp/aura-ai-coach) CRM companion platform |
-| **Enterprise Systems Scale** | **`20+ Specialized Crates`** | Dual-tenant Rust monorepo ([`pharmalink-md`](https://github.com/hoomanp/pharmalink-md)) with dual-region Postgres 16 |
-| **Telecommunications Precision** | **`±65 kHz Doppler`** | Real-time SGP4 Ka/V-band frequency correction in [`PyOrbit-Link`](https://github.com/hoomanp/PyOrbit-Link) (Native SwiftUI iOS 17+) |
-| **Multi-Cloud Intelligence** | **`Google · Azure · AWS`** | Standardized Model Context Protocol (MCP) & decoupled RAG engines across aerospace and MedTech |
 
 ---
 
-## 🏛️ Flagship Engineering Portfolio
+## 🏛️ Executive Architecture: The 4 Core Platform Pillars
 
 ```mermaid
 flowchart TD
-    Profile["Hooman Parta (@hoomanp)\nTechnical Portfolio & Core Competencies"]
+    Profile["Hooman Parta (@hoomanp)\nDirector of Engineering: Core Platform Strategy"]
 
-    subgraph Pillar1["1. Provable AI & Agent Governance"]
-        ABF["autonomy-boundary\nDeterministic Ring 0 Policy Enforcement Point for AI Agents"]
-        Aether["aether-metrics\nExecutive Engineering AI Adoption & A2A Velocity Platform"]
+    subgraph CorePillars["The 4 Executive Anchors: AI Systems & Production Reliability"]
+        direction TB
+        ABF["1. autonomy-boundary\nDeterministic Ring 0 Policy Enforcement Point for AI Agents\n• Sub-millisecond latency (<0.85ms) • OWASP ASI 8/8 • Model Context Protocol (MCP)"]
+        Aether["2. aether-metrics\nExecutive Engineering AI Governance & Autonomous Velocity Platform\n• DORA + AI ROI indicators • Agent-to-Agent (A2A) test remediation"]
+        AdvObs["3. advanced-observability-sre\nService-Centric SLO Dependency & Pre-Flight Blast Radius Engine\n• Dynamic OTel span graphs • Llama 3 trace deltas • CI/CD Stop-Ship gating"]
+        KubeSRE["4. kube-sre-vantage\nClosed-Loop Kubernetes SRE & Zero-Trust Control Plane\n• Multi-window OpenSLO error budgets • ChromaDB RAG • Ephemeral JIT access"]
     end
 
-    subgraph Pillar2["2. Hyperscale Infrastructure & Production Engineering"]
-        KubeSRE["kube-sre-vantage\nClosed-Loop K8s SRE, RAG Incident Memory & Zero-Trust JIT"]
-        AdvObs["advanced-observability-sre\nDynamic OTel Span Graphs & Pre-Flight Blast Radius Engine"]
-        OCP["open-compute-efficiency\nOCP Hardware Predictive Reliability & Edge SLM Fleet Diagnostics"]
+    subgraph DomainRefs["Specialized Domain Reference Architectures"]
+        direction LR
+        Space["Aerospace Networks\n• ConstellaSim (LEO DES)\n• PyOrbit-Link (SwiftUI iOS)"]
+        Health["Regulated Digital Health\n• aura-ai-coach (CRM Companion)\n• pharmalink-md (20+ Rust Crates)"]
+        Hardware["Hyperscale Hardware\n• open-compute-efficiency\n(OCP OpenBMC + Edge SLMs)"]
     end
 
-    subgraph Pillar3["3. Mission-Critical & Aerospace Systems"]
-        Constella["ConstellaSim\nDiscrete-Event LEO Satellite Mesh Simulator (SimPy + Rust)"]
-        PyOrbit["PyOrbit-Link\nOrbital Mechanics, SGP4 Ephemeris & Ka/V-Band RF Link Budgeting"]
-    end
-
-    subgraph Pillar4["4. Regulated Life Sciences & Foundational Rigor"]
-        Aura["aura-ai-coach\nCardiac Implant Companion Platform (FDA Wellness / IEC 62304)"]
-        TonyH["TonyH-Tribute\nFormal Verification, CSP Concurrency & Type-Safe Systems"]
-        PLMD["pharmalink-md\nDual-Tenant Cross-Border Healthcare Platform in Rust (20+ Crates)"]
-    end
-
-    Profile --> Pillar1
-    Profile --> Pillar2
-    Profile --> Pillar3
-    Profile --> Pillar4
+    Profile --> CorePillars
+    CorePillars -.->|Specialized Reference Models| DomainRefs
 ```
 
 ---
 
-## 🔬 Featured Reference Implementations
+## 🔬 The 4 Primary Executive Flagships
 
-### 1. Provable AI & Autonomous Agent Governance
+### 1. [autonomy-boundary](https://github.com/hoomanp/autonomy-boundary) — *The Autonomy Boundary Framework (ABF)*
+* **Executive Problem:** Enterprisewide deployment of autonomous AI agents introduces catastrophic execution risks: agents mutating databases, executing code, and triggering payments based on probabilistic models that can hallucinate, suffer from prompt injection, or drift from approved human intent.
+* **Architectural Solution:** Operates as **Ring 0 for AI Agents**—a deterministic, sub-millisecond (`< 0.85 ms`), zero-LLM Policy Enforcement Point (PEP) and tamper-evident custody plane. Neutralizes real-world agent vulnerability classes (SymJack approval divergence, DSEWiki scope gaps, state drift) across all 8 **OWASP Agentic Security Initiative (ASI)** categories. Includes native **Anthropic Model Context Protocol (MCP)** gateway enforcement.
 
-* **[autonomy-boundary](https://github.com/hoomanp/autonomy-boundary)** — *The Autonomy Boundary Framework (ABF)*  
-  The deterministic Policy Enforcement Point (PEP) and tamper-evident custody plane for autonomous AI agents. Delivers sub-millisecond (`< 0.85 ms`), zero-LLM action verification, neutralizing real-world agent vulnerability classes (SymJack approval divergence, DSEWiki scope gaps, state drift) across all 8 **OWASP Agentic Security Initiative (ASI)** categories. Includes native **Anthropic Model Context Protocol (MCP)** gateway enforcement.
-* **[aether-metrics](https://github.com/hoomanp/aether-metrics)** — *Engineering AI Governance & Autonomous Velocity Platform*  
-  Executive control plane measuring enterprise AI developer adoption, token-to-value efficiency, and DORA cycle time deltas. Features an **Agent-to-Agent (A2A) negotiation protocol** that autonomously detects test coverage deficits and dispatches specialized subagents to synthesize unit tests before pull requests merge.
+### 2. [aether-metrics](https://github.com/hoomanp/aether-metrics) — *Engineering AI Governance & Autonomous Velocity Platform*
+* **Executive Problem:** Engineering leadership lacks visibility into whether generative AI coding assistants (Copilot, Cursor) are driving genuine productivity or generating technical debt and review bottlenecks.
+* **Architectural Solution:** An executive telemetry platform tracking **DORA + AI ROI indicators** (Cycle Time Delta, Token-to-Value efficiency, defect escape vs. AI attribution). Features an **Agent-to-Agent (A2A) JSON-RPC orchestration runtime** where Aether detects test coverage deficits on active pull requests and autonomously tasks external subagents to synthesize unit tests before code merges.
 
-### 2. Hyperscale Production Engineering & Reliability
+### 3. [advanced-observability-sre](https://github.com/hoomanp/advanced-observability-sre) — *Service-Centric SLO Dependency & Blast Radius Engine*
+* **Executive Problem:** At hyperscale microservice density, low-level service degradation cascades non-linearly, causing sudden brownouts in Tier-0 customer-facing endpoints.
+* **Architectural Solution:** A **Meta PE / Google SRE-aligned** observability framework using OpenTelemetry span links and context propagation to dynamically reconstruct real-time service dependency multigraphs. Computes a mathematical **Blast Radius Index ($BRI$)** within canary continuous deployment pipelines, enforcing automated **Stop-Ship halts** when predicted degradation exceeds remaining error budgets.
 
-* **[kube-sre-vantage](https://github.com/hoomanp/kube-sre-vantage)** — *Autonomous Kubernetes SRE & Zero-Trust Control Plane*  
-  Closed-loop reliability engine across AKS, EKS, and GKE. Ingests normalized OpenTelemetry metrics, grounds incident reasoning in ChromaDB vector memory, calculates multi-window OpenSLO burn rates, and enforces **Google Staff Security-aligned Zero-Trust Just-In-Time (JIT) access** on all automated cluster remediations.
-* **[advanced-observability-sre](https://github.com/hoomanp/advanced-observability-sre)** — *Service-Centric SLO Dependency & Blast Radius Engine*  
-  Hyperscale SRE reference architecture (Meta PE / Google SRE aligned) utilizing OpenTelemetry span links to dynamically map microservice dependency multigraphs. Simulates pre-flight blast radius in continuous delivery pipelines and enforces automated **Stop-Ship** rollout halts when downstream error budgets are threatened.
-* **[open-compute-efficiency](https://github.com/hoomanp/open-compute-efficiency)** — *Predictive Hardware Reliability & Fleet Health Control Plane*  
-  Treats data center hardware as a software reliability problem. Scrapes OpenBMC Redfish telemetry on Open Compute Project (OCP) server chassis, runs edge-quantized Small Language Models (SLMs) on rack controllers to predict component failures (PCIe AER, DRAM correctable errors), and automates node cordoning and FRU ticket dispatch.
-
-### 3. Mission-Critical & Aerospace Telecommunications
-
-* **[ConstellaSim](https://github.com/hoomanp/ConstellaSim)** — *LEO Satellite Network Topology & Discrete-Event Simulator*  
-  Advanced discrete-event simulator modeling packet-level routing across dynamic Low Earth Orbit (LEO) mega-constellations (Amazon Project Kuiper / Starlink). Combines SimPy, NetworkX, and a high-performance **Rust event core (`constella-core-rs`)** with a multi-cloud RAG mission analyst streamed via Server-Sent Events (SSE).
-* **[PyOrbit-Link](https://github.com/hoomanp/PyOrbit-Link)** — *LEO Satellite Ephemeris Tracker & RF Link Budget Platform*  
-  Aerospace systems toolkit integrating CelesTrak NORAD TLE ingestion, high-precision Skyfield SGP4 orbit propagation, relativistic Doppler shift tracking ($\pm 65\text{ kHz}$ at Ka-band), and ITU-R P.618 atmospheric and rain fade link budgeting.
-
-### 4. Regulated Life Sciences & Foundational Rigor
-
-* **[aura-ai-coach](https://github.com/hoomanp/aura-ai-coach)** — *Cardiovascular CRM Implant Mobile Companion Platform*  
-  Enterprise digital health reference architecture bridging Abbott® CRM cardiac telemetry with consumer health ecosystems (Apple HealthKit & Google Health Connect). Enforces strict **FDA FD&C Act §520(o)** general wellness boundaries, IEC 62304 Class A/B lifecycle decoupling, and zero-trust ephemeral memory.
-* **[TonyH-Tribute](https://github.com/hoomanp/TonyH-Tribute)** — *Foundations of Correctness: Quicksort, Hoare Logic, CSP & Type Safety*  
-  A technical monograph connecting Sir Tony Hoare's seminal breakthroughs in formal verification and communicating sequential processes directly to modern distributed AI systems, actor runtimes, and algebraic type safety.
-* **[pharmalink-md](https://github.com/hoomanp/pharmalink-md)** — *Dual-Product Healthcare Distribution Engine*  
-  Monorepo of 20+ Rust crates powering cross-border prescription routing, clinical equivalence (DIN $\leftrightarrow$ NDC), and multi-tenant pharmacy delivery dispatch, defensible against HIPAA, PIPEDA, and Quebec Law 25 audits.
+### 4. [kube-sre-vantage](https://github.com/hoomanp/kube-sre-vantage) — *Closed-Loop Kubernetes SRE & Zero-Trust Control Plane*
+* **Executive Problem:** Static threshold alerting causes severe cognitive fatigue, while automated remediation scripts often hold persistent cluster-admin permissions, violating SOC2/ISO compliance.
+* **Architectural Solution:** A closed-loop reliability engine across AKS, EKS, and GKE. Normalizes telemetry via OpenTelemetry, contextualizes anomalies using ChromaDB vector memory of historical post-mortems and SLA contracts, calculates multi-window OpenSLO burn rates, and executes remediations through a **Google Staff Security-aligned Zero-Trust Just-In-Time (JIT) access broker** that mints short-lived, scoped tokens.
 
 ---
 
-## ⚡ Technical Competencies & Leadership Scope
+## 🛰️ Specialized Domain Reference Architectures
 
-| Leadership & Systems Dimension | Core Technologies & Methodologies |
+In addition to core AI systems and infrastructure governance, I maintain three specialized reference architectures demonstrating systems engineering in high-concurrency, regulated, and mission-critical regimes:
+
+### Aerospace & Satellite Telecommunications
+* **[ConstellaSim](https://github.com/hoomanp/ConstellaSim)** — *LEO Satellite Network Topology & Discrete-Event Simulator:* Advanced SimPy + Rust hybrid core (`constella-core-rs`) discrete-event simulator modeling packet-level routing and dynamic Inter-Satellite Link (ISL) mesh topologies across LEO mega-constellations (Amazon Project Kuiper / Starlink).
+* **[PyOrbit-Link](https://github.com/hoomanp/PyOrbit-Link)** — *LEO Ephemeris Tracker & Native SwiftUI iOS App:* Full-stack aerospace telecommunications toolkit integrating Skyfield SGP4 orbit propagation, relativistic Doppler shift tracking ($\pm 65\text{ kHz}$ at Ka-band), ITU-R P.618 rain fade budgeting, and a production-grade native **iOS 17+ flight companion app**.
+
+### Regulated Life Sciences & Digital Health
+* **[aura-ai-coach](https://github.com/hoomanp/aura-ai-coach)** — *Cardiovascular CRM Implant Mobile Companion Platform:* Enterprise digital health reference architecture bridging Abbott® CRM cardiac telemetry with consumer health ecosystems (Apple HealthKit & Google Health Connect). Enforces strict **FDA FD&C Act §520(o)** general wellness boundaries, IEC 62304 Class A/B decoupling, Model Context Protocol (MCP) integration, and 130/130 passing automated tests.
+* **[pharmalink-md](https://github.com/hoomanp/pharmalink-md)** — *Dual-Product Healthcare Distribution Engine:* Production-grade monorepo of 20+ specialized Rust crates powering cross-border prescription routing and multi-tenant pharmacy delivery logistics, backed by dual-region PostgreSQL 16 and defensible to HIPAA, PIPEDA, and Quebec Law 25 audits.
+
+### Hyperscale Hardware Operations
+* **[open-compute-efficiency](https://github.com/hoomanp/open-compute-efficiency)** — *Predictive Hardware Reliability & Fleet Health Control Plane:* Hyperscale infrastructure framework scraping OpenBMC Redfish telemetry on Open Compute Project (OCP) chassis, deploying edge-quantized Small Language Models (SLMs) on rack controllers to predict component failures (PCIe AER, DRAM correctable errors), and automating FBAR/Twine workload drains.
+
+---
+
+## ⚡ Executive Leadership Scope & Technical Competencies
+
+| Executive Leadership Dimension | Competencies, Governance & Methodologies |
 | :--- | :--- |
-| **Engineering Leadership & Strategy** | Executive Technology Strategy, DORA Metrics & Engineering ROI, Team Mentorship & Organization Scaling, Capital Allocation, Cross-Functional Executive Alignment. |
-| **Provable AI & Agent Governance** | Deterministic Policy Enforcement (ABF), Anthropic Model Context Protocol (MCP), OWASP Top 10 for Agentic Applications, RAG Pipelines, SLM Edge Diagnostics. |
-| **Cloud Infrastructure & SRE** | OpenTelemetry (OTel), Kubernetes (EKS, AKS, GKE), Multi-Window Error Budgeting (OpenSLO), Distributed Tracing, Chaos Engineering, Automated Rollback Gating. |
-| **Aerospace & Mission-Critical** | Discrete-Event Simulation (SimPy), SGP4 Orbit Mechanics, LEO Constellation Routing, Ka/V-Band RF Link Budgets, ITU-R P.618 Propagation. |
-| **Security, Compliance & Privacy** | **CISSP Certified**, Zero-Trust Architecture (JIT Access), HIPAA Security Rule, FDA 21 CFR Part 11, PIPEDA, Quebec Law 25, SOC2 Type II Audit Readiness. |
-| **Languages & Systems Programming** | **Rust** (Axum, Tokio, SQLx), **Python** (FastAPI, SimPy, Skyfield), **Go**, **TypeScript** (React Native, Next.js), SQL (Postgres 16, ClickHouse), C++. |
+| **Engineering Leadership & Strategy** | Multi-Year Technology Roadmaps, Multi-Million Dollar Capital & Cloud Budget Allocation, Engineering Organization Scaling (40–150+ engineers), DORA Metrics & Developer Productivity ROI. |
+| **Autonomous AI Systems & Safety** | Deterministic Policy Enforcement (ABF), Anthropic Model Context Protocol (MCP), OWASP Top 10 for Agentic Applications, RAG Architecture, Edge SLM Quantization. |
+| **Cloud Infrastructure & Reliability** | Hyperscale Production Engineering, OpenTelemetry (OTel), Kubernetes (EKS, AKS, GKE), Multi-Window Multi-Burn-Rate Error Budgeting (OpenSLO), Dynamic Blast Radius Modeling. |
+| **Information Security & Governance** | **CISSP Certified**, Zero-Trust Architecture (JIT Access Brokering), FDA 21 CFR Part 11, HIPAA Security Rule, SOC2 Type II Audit Readiness, PIPEDA & Quebec Law 25. |
+| **Systems Programming & Runtimes** | **Rust** (Axum, Tokio, SQLx), **Python** (FastAPI, SimPy, Skyfield), **Go**, **Swift / SwiftUI** (iOS 17+), TypeScript (Next.js, React Native), SQL (Postgres 16, ClickHouse), C++. |
 
 ---
 
@@ -123,4 +114,4 @@ flowchart TD
 
 - **LinkedIn:** [linkedin.com/in/hooman-parta](https://www.linkedin.com/in/hooman-parta)
 - **GitHub:** [github.com/hoomanp](https://github.com/hoomanp)
-- **Location:** Los Angeles, CA / Remote (Global Scope)
+- **Location:** Los Angeles, CA / Remote (Global Executive Scope)
