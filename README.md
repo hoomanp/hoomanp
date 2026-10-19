@@ -65,19 +65,19 @@ flowchart TD
 
 ## The 4 Primary Executive Repositories
 
-### 1. [autonomy-boundary](https://github.com/hoomanp/autonomy-boundary) — *The Autonomy Boundary Framework (ABF)*
+### 1. [autonomy-boundary](https://github.com/hoomanp/autonomy-boundary): The Autonomy Boundary Framework (ABF)
 * **Operational Problem:** Enterprise deployment of autonomous AI agents introduces severe execution risk when agents mutate production databases, execute shell commands, or trigger financial transactions based on probabilistic outputs vulnerable to prompt injection, approval divergence, or state drift.
-* **Architectural Solution:** Operates as **Ring 0 for AI Agents**—a deterministic, sub-millisecond (`< 0.85 ms`), zero-LLM Policy Enforcement Point (PEP) and split-custody audit ledger. Neutralizes real-world agent vulnerability classes (SymJack approval divergence, DSEWiki scope gaps, stale state execution) across all 8 **OWASP Agentic Security Initiative (ASI)** categories. Includes native **Anthropic Model Context Protocol (MCP)** gateway enforcement.
+* **Architectural Solution:** Operates as Ring 0 for AI Agents: a deterministic, sub-millisecond (`< 0.85 ms`), zero-LLM Policy Enforcement Point (PEP) and split-custody audit ledger. Neutralizes real-world agent vulnerability classes (SymJack approval divergence, DSEWiki scope gaps, stale state execution) across all 8 **OWASP Agentic Security Initiative (ASI)** categories. Includes native **Anthropic Model Context Protocol (MCP)** gateway enforcement.
 
-### 2. [aether-metrics](https://github.com/hoomanp/aether-metrics) — *Engineering AI Governance & Unit Economics Platform*
+### 2. [aether-metrics](https://github.com/hoomanp/aether-metrics): Engineering AI Governance & Unit Economics Platform
 * **Operational Problem:** Engineering executives lack quantitative visibility into whether generative AI tools and production agent loops are reducing cycle time or inflating cloud bills through uncached token churn, suboptimal tier routing, and downstream review bottlenecks.
 * **Architectural Solution:** An executive telemetry and governance control plane tracking **DORA + AI Unit Economics** (Cost-per-Completed-Task, Prefix Cache Hit Ratio, Cycle Time Delta, and Token-to-Value efficiency). Includes an **Agent-to-Agent (A2A) JSON-RPC orchestration runtime** that detects test coverage deficits on active pull requests and dispatches specialized subagents to synthesize unit tests before merge.
 
-### 3. [advanced-observability-sre](https://github.com/hoomanp/advanced-observability-sre) — *Service-Centric SLO Dependency & Blast Radius Engine*
+### 3. [advanced-observability-sre](https://github.com/hoomanp/advanced-observability-sre): Service-Centric SLO Dependency & Blast Radius Engine
 * **Operational Problem:** Across thousands of microservices and multi-step AI inference pipelines, localized latency regressions or uncached context expansions cascade non-linearly into Tier-0 brownouts.
-* **Architectural Solution:** A **Meta PE / Google SRE-aligned** observability framework using OpenTelemetry span links and context propagation to reconstruct real-time service dependency multigraphs. Computes a mathematical **Blast Radius Index ($BRI$)** inside canary deployment pipelines, enforcing automated **Stop-Ship halts** when projected degradation threatens Tier-0 error budgets.
+* **Architectural Solution:** An observability control plane using OpenTelemetry span links and context propagation to reconstruct real-time service dependency multigraphs. Computes a mathematical **Blast Radius Index ($BRI$)** inside canary deployment pipelines, enforcing automated **Stop-Ship halts** when projected degradation threatens Tier-0 error budgets.
 
-### 4. [kube-sre-vantage](https://github.com/hoomanp/kube-sre-vantage) — *Closed-Loop Kubernetes SRE & Zero-Trust Control Plane*
+### 4. [kube-sre-vantage](https://github.com/hoomanp/kube-sre-vantage): Closed-Loop Kubernetes SRE & Zero-Trust Control Plane
 * **Operational Problem:** Static threshold alerting drives on-call fatigue, while automated self-healing operators often hold standing `cluster-admin` privileges that violate zero-trust security standards.
 * **Architectural Solution:** A closed-loop reliability control plane across EKS, AKS, and GKE. Normalizes telemetry via OpenTelemetry, correlates incidents against ChromaDB vector memory of historical post-mortems and SLA contracts, decouples CPU control-plane orchestration from GPU inference pools, and executes remediations through a **Zero-Trust Just-In-Time (JIT) access broker** using short-lived, scoped tokens.
 
@@ -87,9 +87,9 @@ flowchart TD
 
 Creator of the LinkedIn engineering leadership series **What Changed This Month** and **The Autonomy Boundary**, analyzing production AI unit economics, infrastructure trade-offs, and deterministic agent governance:
 
-1. **LLM Unit Economics & Prompt Caching:** *Why headline token list prices no longer dictate production AI bills—modeling prefix-cache reuse (61% task cost reduction), cache-write surcharges, TTL eviction boundaries, and complexity-based tier routing.*
+1. **LLM Unit Economics & Prompt Caching:** *Why headline token list prices no longer dictate production AI bills: modeling prefix-cache reuse (61% task cost reduction), cache-write surcharges, TTL eviction boundaries, and complexity-based tier routing.*
 2. **RAG Economics & Retrieval Precision:** *Evaluating the unit cost and recall degradation of 1M-token context windows versus hybrid vector retrieval, cross-encoder reranking, and abstention-trained models.*
-3. **Eval-Driven Deployment & Stop-Ship Gates:** *Why static offline benchmarks fail in production—implementing synthetic canary evaluations, Blast Radius Index ($BRI$) gating, and Ring 0 execution boundaries.*
+3. **Eval-Driven Deployment & Stop-Ship Gates:** *Why static offline benchmarks fail in production: implementing synthetic canary evaluations, Blast Radius Index ($BRI$) gating, and Ring 0 execution boundaries.*
 4. **Decoupling Agent Orchestration from GPU Inference:** *Unbundling I/O-bound agent tool loops onto elastic CPU nodes while isolating high-TCO GPU clusters strictly for forward passes and high-utilization MoE serving.*
 
 ---
@@ -99,15 +99,15 @@ Creator of the LinkedIn engineering leadership series **What Changed This Month*
 In addition to core AI platform and cloud reliability engineering, I maintain reference architectures demonstrating systems engineering across regulated and mission-critical domains:
 
 ### Aerospace & Satellite Telecommunications
-* **[ConstellaSim](https://github.com/hoomanp/ConstellaSim)** — *LEO Satellite Network Topology & Discrete-Event Simulator:* SimPy + Rust hybrid core (`constella-core-rs`) discrete-event simulator modeling packet-level routing and dynamic Inter-Satellite Link (ISL) mesh topologies across LEO mega-constellations.
-* **[PyOrbit-Link](https://github.com/hoomanp/PyOrbit-Link)** — *LEO Ephemeris Tracker & Native SwiftUI iOS App:* Aerospace telecommunications toolkit integrating Skyfield SGP4 orbit propagation, relativistic Doppler shift tracking ($\pm 65\text{ kHz}$ at Ka-band), ITU-R P.618 rain fade budgeting, and a native **iOS 17+ flight companion app**.
+* **[ConstellaSim](https://github.com/hoomanp/ConstellaSim):** *LEO Satellite Network Topology & Discrete-Event Simulator:* SimPy + Rust hybrid core (`constella-core-rs`) discrete-event simulator modeling packet-level routing and dynamic Inter-Satellite Link (ISL) mesh topologies across LEO mega-constellations.
+* **[PyOrbit-Link](https://github.com/hoomanp/PyOrbit-Link):** *LEO Ephemeris Tracker & Native SwiftUI iOS App:* Aerospace telecommunications toolkit integrating Skyfield SGP4 orbit propagation, relativistic Doppler shift tracking ($\pm 65\text{ kHz}$ at Ka-band), ITU-R P.618 rain fade budgeting, and a native **iOS 17+ flight companion app**.
 
 ### Regulated Life Sciences & Digital Health
-* **[aura-ai-coach](https://github.com/hoomanp/aura-ai-coach)** — *Cardiovascular CRM Implant Mobile Companion Platform:* Digital health reference architecture bridging cardiac telemetry with consumer health ecosystems (Apple HealthKit & Google Health Connect). Enforces **FDA FD&C Act §520(o)** general wellness boundaries, IEC 62304 Class A/B decoupling, MCP integration, and 130/130 passing automated tests.
-* **[pharmalink-md](https://github.com/hoomanp/pharmalink-md)** — *Dual-Product Healthcare Distribution Engine:* Monorepo of 20+ specialized Rust crates powering prescription routing and multi-tenant delivery logistics, backed by dual-region PostgreSQL 16 and aligned with HIPAA, PIPEDA, and Quebec Law 25 requirements.
+* **[aura-ai-coach](https://github.com/hoomanp/aura-ai-coach):** *Cardiovascular CRM Implant Mobile Companion Platform:* Digital health reference architecture bridging cardiac telemetry with consumer health ecosystems (Apple HealthKit & Google Health Connect). Enforces **FDA FD&C Act §520(o)** general wellness boundaries, IEC 62304 Class A/B decoupling, MCP integration, and 130/130 passing automated tests.
+* **[pharmalink-md](https://github.com/hoomanp/pharmalink-md):** *Dual-Product Healthcare Distribution Engine:* Monorepo of 20+ specialized Rust crates powering prescription routing and multi-tenant delivery logistics, backed by dual-region PostgreSQL 16 and aligned with HIPAA, PIPEDA, and Quebec Law 25 requirements.
 
 ### Hyperscale Hardware Operations
-* **[open-compute-efficiency](https://github.com/hoomanp/open-compute-efficiency)** — *Predictive Hardware Reliability & Fleet Health Control Plane:* Infrastructure framework ingesting OpenBMC Redfish telemetry on Open Compute Project (OCP) racks, running edge-quantized Small Language Models (SLMs) to predict component degradation (PCIe AER, DRAM ECC errors), and automating non-disruptive workload drains.
+* **[open-compute-efficiency](https://github.com/hoomanp/open-compute-efficiency):** *Predictive Hardware Reliability & Fleet Health Control Plane:* Infrastructure framework ingesting OpenBMC Redfish telemetry on Open Compute Project (OCP) racks, running edge-quantized Small Language Models (SLMs) to predict component degradation (PCIe AER, DRAM ECC errors), and automating non-disruptive workload drains.
 
 ---
 
