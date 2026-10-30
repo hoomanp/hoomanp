@@ -66,8 +66,9 @@ flowchart TD
 ## The 4 Primary Executive Repositories
 
 ### 1. [autonomy-boundary](https://github.com/hoomanp/autonomy-boundary): The Autonomy Boundary Framework (ABF)
-* **Operational Problem:** Enterprise deployment of autonomous AI agents introduces severe execution risk when agents mutate production databases, execute shell commands, or trigger financial transactions based on probabilistic outputs vulnerable to prompt injection, approval divergence, or state drift.
-* **Architectural Solution:** Operates as Ring 0 for AI Agents: a deterministic, sub-millisecond (`< 0.85 ms`), zero-LLM Policy Enforcement Point (PEP) and split-custody audit ledger. Neutralizes real-world agent vulnerability classes (SymJack approval divergence, DSEWiki scope gaps, stale state execution) across all 8 **OWASP Agentic Security Initiative (ASI)** categories. Includes native **Anthropic Model Context Protocol (MCP)** gateway enforcement.
+* **The Problem:** Manual, retroactive compliance reviews and out-of-band configuration drift halt enterprise delivery velocity and expose production infrastructure to unconstrained blast radius when autonomous agents execute tool mutations.
+* **The Invariant ("Approved Must Equal Authorized"):** Cryptographic binding via canonical SHA-256 normalization, capability graphs, and Ed25519 signatures eliminates the gap between architectural intent and production execution. Operates as a deterministic Ring 0 Policy Enforcement Point (PEP) executing in `< 0.85 ms` (zero-LLM overhead) with full 8/8 OWASP ASI coverage.
+* **The Paved Road:** Implemented as a drop-in, self-service compliance guardrail plugging directly into CI/CD pipelines, Anthropic Model Context Protocol (MCP) gateways, and standard agent SDKs (LangChain, OpenAI, Anthropic, Gemini) without adding developer friction.
 
 ### 2. [aether-metrics](https://github.com/hoomanp/aether-metrics): Engineering AI Governance & Unit Economics Platform
 * **Operational Problem:** Engineering executives lack quantitative visibility into whether generative AI tools and production agent loops are reducing cycle time or inflating cloud bills through uncached token churn, suboptimal tier routing, and downstream review bottlenecks.
